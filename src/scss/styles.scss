@@ -34,10 +34,12 @@ $offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 @import "bootstrap/scss/functions";
 
 // Customize some defaults
-$body-color: #333;
-$body-bg: #fff;
-$border-radius: .4rem;
-$success: #7952b3;
+$body-color: darkred;
+$body-bg: lightcoral;
+$border-radius: 1rem;
+$success: coral;
+$btn-custom-color:green;
+
 
 // Required
 @import "bootstrap/scss/variables";
@@ -84,13 +86,17 @@ $success: #7952b3;
 // Utilities
 @import "bootstrap/scss/utilities/api";
 
-
-//
-// Custom styles
-//
-
 @import "icon-list";
 
 body {
   padding: 1.5rem;
+}
+.btn-primary {
+  color:black;
+  background-color: bisque;
+  padding: 10px;
+  border: 5px dotted hotpink;
+}
+.light-gray-color{
+  color: lightgray;
 }
